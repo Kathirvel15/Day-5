@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    width: 100%;
+    height: 643px;
+}
+.border
+{
+    border:1px solid;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.border-left
+{
+    width:21%;
+    height:96%;
+    border: 1px solid rgb(3, 85, 3);
+    margin: 1%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.border-left > div{
+    border:1px dashed red;
+    height:110px;
+    margin: 5%;
+}
+.border-right
+{
+    float: left;
+    width: 75%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1%;
+}
+.top
+{
+    width:100%;
+    height:59%;
+    border:1px solid blue;
+}
+.top1
+{
+    width: 75%;
+    height:50%;
+    display:flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.top1 > div{
+    border:1px solid rgb(253, 0, 253);
+    height:82%;
+    width:28%;
+    margin: 2%;
+}
+.top2
+{
+    height: 51%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+.top2 > div{
+    border:1px solid rgb(255, 94, 0);
+    height: 78%;
+    margin:2%;
+    width: 22%;
+}
+.bottom
+{
+    border: 1px solid rgb(253, 0, 253);
+    width: 100%;
+    height: 37%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.bottom > div
+{
+    height: 91%;
+    border: 1px solid rgb(255, 174, 0);
+    width:28%;
+    margin:1%;
+}
+.bottom1 
+{
+    display: flex;
+    flex-direction: column;
+    width: 38% !important;
+    justify-content: space-between;
+}
+.bottom1 > div{
+    padding: 38px;
+    border: 1px dashed rgb(0, 0, 0);
+    margin: 3% 25% 4% 25%;
+
+}
